@@ -226,7 +226,7 @@ public class ThemGiaoVienUI extends JFrame {
      */
     public void customButton(JButton btn) {
         btn.setFocusable(false);
-        btn.setFont(new Font("Bahnschrift", Font.BOLD, 20));
+        btn.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 20));
 //        btn.setBackground(Color.WHITE);
         btn.setPreferredSize(new Dimension(130, 50));
 //        btn.setBorder(BorderFactory.createRaisedBevelBorder());
@@ -234,7 +234,7 @@ public class ThemGiaoVienUI extends JFrame {
 
     public void customLabel(JLabel lbl) {
         lbl.setPreferredSize(new Dimension(100, 25));
-        lbl.setFont(new Font("Bahnschrift", Font.PLAIN, 20));
+        lbl.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 20));
     }
 
     /**
