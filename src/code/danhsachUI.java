@@ -100,6 +100,7 @@ public class danhsachUI extends JFrame {
         pnXuat.setBackground(new Color(165, 213, 255));
         pnXuat.setOpaque(true);
         btnXuatFile = new JButton("Xuất file");
+        btnXuatFile.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         btnXuatFile.setIcon(new FlatSVGIcon(Objects.requireNonNull(this.getClass().getResource("/image/danhsachUI/excel_logo.svg"))));
         btnXuatFile.setFocusable(false);
         btnXuatFile.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 20));
@@ -113,6 +114,7 @@ public class danhsachUI extends JFrame {
         pnThoat.setBackground(new Color(165, 213, 255));
         pnThoat.setOpaque(true);
         btnThoat = new JButton("Thoát");
+        btnThoat.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         btnThoat.setFocusable(false);
         btnThoat.setIcon(new FlatSVGIcon(Objects.requireNonNull(this.getClass().getResource("/image/danhsachUI/close.svg"))));
         btnThoat.setVerticalAlignment(JButton.CENTER);
