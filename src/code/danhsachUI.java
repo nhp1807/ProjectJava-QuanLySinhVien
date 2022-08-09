@@ -116,8 +116,12 @@ public class danhsachUI extends JFrame {
         JPanel pnThoat = new JPanel();
         pnThoat.setBackground(new Color(165, 213, 255));
         pnThoat.setOpaque(true);
+<<<<<<< HEAD
         btnThoat = new JButton("Thoát");
 <<<<<<< HEAD
+=======
+        btnThoat = new JButton("Quay lại");
+>>>>>>> f2ff2e9 (Edit back button)
         btnThoat.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 =======
 >>>>>>> e2b6679 (add danhsachUI)
