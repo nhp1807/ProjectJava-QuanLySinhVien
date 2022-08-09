@@ -118,7 +118,7 @@ public class danhsachUI extends JFrame {
         btnThoat.setFocusable(false);
         btnThoat.setIcon(new FlatSVGIcon(Objects.requireNonNull(this.getClass().getResource("/image/danhsachUI/close.svg"))));
         btnThoat.setVerticalAlignment(JButton.CENTER);
-        btnThoat.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 25));
+        btnThoat.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 20));
 //        btnThoat.setBackground(Color.WHITE);
         btnThoat.setPreferredSize(new Dimension(150, 70));
 //        btnThoat.setBorder(BorderFactory.createRaisedBevelBorder());
