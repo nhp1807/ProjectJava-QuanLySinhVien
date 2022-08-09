@@ -124,6 +124,7 @@ public class mainUI extends JFrame {
 
     //Function
     public void customButton(JButton btn){
+        btn.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         btn.setFocusable(false);                                                //Khi nhấp sẽ không hiện viền trong nút
         btn.setIconTextGap(20);                                                 //Set khoảng cách giữa chữ và icon
         btn.setHorizontalTextPosition(JButton.CENTER);
