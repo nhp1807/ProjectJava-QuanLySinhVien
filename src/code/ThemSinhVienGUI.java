@@ -187,7 +187,7 @@ public class ThemSinhVienGUI extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 setVisible(false);
-                new quanlysvUI();
+//                new quanlysvUI();
             }
         });
     }
