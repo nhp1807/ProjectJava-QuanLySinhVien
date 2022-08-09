@@ -93,10 +93,10 @@ public class ServiceGV extends Connect {
 //            CallableStatement preStatement = conn.prepareCall("{ CALL sp_Information_Update(?,?,?,?,?,?) }");
             preStatement.setString(1, giaoVien.getTen());
             preStatement.setInt(2, giaoVien.getTuoi());
-            preStatement.setString(5, giaoVien.getMaGiaoVien());
+            preStatement.setString(6, giaoVien.getMaGiaoVien());
             preStatement.setString(3, giaoVien.getMail());
             preStatement.setString(4, giaoVien.getSdt());
-            preStatement.setString(6, giaoVien.getVienDaoTao());
+            preStatement.setString(5, giaoVien.getVienDaoTao());
             int result = preStatement.executeUpdate();
             if (result > 0) {
                 return true;
