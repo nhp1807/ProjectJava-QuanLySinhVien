@@ -121,7 +121,7 @@ public class quanlysvUI extends JFrame {
         gbc.gridx = 0;
         gbc.gridy = 4;
         pnChucNang.add(btnSua,gbc);
-        btnThoat = new JButton("Thoát");
+        btnThoat = new JButton("Quay lại");
         btnThoat.setIcon(new FlatSVGIcon(Objects.requireNonNull(this.getClass().getResource("/image/quanlysvUI/close.svg"))));
         customButton(btnThoat);
         gbc.gridx = 0;
@@ -364,6 +364,7 @@ public class quanlysvUI extends JFrame {
      * @param btn
      */
     public void customButton(JButton btn) {
+        btn.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         btn.setFocusable(false);
         btn.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 20));
 //        btn.setBackground(Color.WHITE);

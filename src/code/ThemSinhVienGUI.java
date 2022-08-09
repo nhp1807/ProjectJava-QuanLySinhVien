@@ -115,8 +115,8 @@ public class ThemSinhVienGUI extends JFrame {
         btnQuayLai = new JButton("Quay lại");
         customButton(btnThem);
         customButton(btnQuayLai);
-        pnChucNang.add(btnQuayLai);
         pnChucNang.add(btnThem);
+        pnChucNang.add(btnQuayLai);
         pnChucNang.setBackground(new Color(143, 184, 255));
 
         //Containter
@@ -201,6 +201,7 @@ public class ThemSinhVienGUI extends JFrame {
      * @param btn
      */
     public void customButton(JButton btn) {
+        btn.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         btn.setFocusable(false);
         btn.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 20));
 //        btn.setBackground(Color.WHITE);
