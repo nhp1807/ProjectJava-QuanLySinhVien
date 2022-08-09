@@ -100,10 +100,7 @@ public class danhsachUI extends JFrame {
         pnXuat.setBackground(new Color(165, 213, 255));
         pnXuat.setOpaque(true);
         btnXuatFile = new JButton("Xuất file");
-<<<<<<< HEAD
         btnXuatFile.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-=======
->>>>>>> e2b6679 (add danhsachUI)
         btnXuatFile.setIcon(new FlatSVGIcon(Objects.requireNonNull(this.getClass().getResource("/image/danhsachUI/excel_logo.svg"))));
         btnXuatFile.setFocusable(false);
         btnXuatFile.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 20));
@@ -116,15 +113,8 @@ public class danhsachUI extends JFrame {
         JPanel pnThoat = new JPanel();
         pnThoat.setBackground(new Color(165, 213, 255));
         pnThoat.setOpaque(true);
-<<<<<<< HEAD
-        btnThoat = new JButton("Thoát");
-<<<<<<< HEAD
-=======
         btnThoat = new JButton("Quay lại");
->>>>>>> f2ff2e9 (Edit back button)
         btnThoat.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-=======
->>>>>>> e2b6679 (add danhsachUI)
         btnThoat.setFocusable(false);
         btnThoat.setIcon(new FlatSVGIcon(Objects.requireNonNull(this.getClass().getResource("/image/danhsachUI/close.svg"))));
         btnThoat.setVerticalAlignment(JButton.CENTER);
