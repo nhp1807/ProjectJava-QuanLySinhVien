@@ -36,7 +36,7 @@ public class ThemGiaoVienUI extends JFrame {
     private void addEvents() {
         btnQuayLai.addActionListener(e -> {
             setVisible(true);
-            new quanlygvUI();
+//            new quanlygvUI();
         });
 
         //Chức năng nút thêm
