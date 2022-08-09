@@ -369,12 +369,13 @@ public class quanlygvUI extends JFrame {
     }
 
     public void customButton(JButton btn) {
-        btn.setFocusable(true);
+        btn.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+        btn.setFocusable(false);
         setIconImages(FlatSVGUtils.createWindowIconImages(this.getClass().getResource("/image/quanlygvUI/icon.svg")));
         btn.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 20));
-        btn.setBackground(Color.WHITE);
+//        btn.setBackground(Color.WHITE);
         btn.setPreferredSize(new Dimension(150, 70));
-        btn.setBorder(BorderFactory.createRaisedBevelBorder());
+//        btn.setBorder(BorderFactory.createRaisedBevelBorder());
     }
 
     public static void main(String[] args) {
