@@ -242,7 +242,7 @@ public class ThemGiaoVienUI extends JFrame {
      * Phương thức dùng để chỉnh sửa đồng bộ các textfield có cùng kích thước
      */
     public void customTextField(JTextField txt) {
-        txt.setFont(new Font("Bahnschrift", Font.PLAIN, 20));
+        txt.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 20));
         txt.setPreferredSize(new Dimension(0, 30));
         txt.setAlignmentY(CENTER_ALIGNMENT);
     }
