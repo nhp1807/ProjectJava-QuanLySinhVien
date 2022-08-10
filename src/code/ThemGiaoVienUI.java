@@ -25,7 +25,8 @@ public class ThemGiaoVienUI extends JFrame {
     }
 
     private void showWindow() {
-        setIconImages(FlatSVGUtils.createWindowIconImages(this.getClass().getResource("/image/ThemGIaoVienUI/icon.svg")));
+        setTitle("Thêm giáo viên");
+        setIconImages(FlatSVGUtils.createWindowIconImages(this.getClass().getResource("/image/ThemGiaoVienUI/icon.svg")));
         setSize(900, 600);
         setResizable(false);
         setLocationRelativeTo(null);
@@ -195,7 +196,7 @@ public class ThemGiaoVienUI extends JFrame {
 
         //Ảnh trang trí
         JLabel lbAnh = new JLabel();
-        lbAnh.setIcon(new FlatSVGIcon(Objects.requireNonNull(this.getClass().getResource("/image/ThemGIaoVienUI/student.svg"))));
+        lbAnh.setIcon(new FlatSVGIcon(Objects.requireNonNull(this.getClass().getResource("/image/ThemGiaoVienUI/student.svg"))));
 
         //Chức năng
         JPanel pnChucNang = new JPanel();

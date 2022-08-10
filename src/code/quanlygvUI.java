@@ -31,6 +31,7 @@ public class quanlygvUI extends JFrame {
     }
 
     private void showWindow() {
+        this.setTitle("Quản lý giáo viên");
         this.setExtendedState(MAXIMIZED_BOTH);
         this.setSize(new Dimension(900,600));
         this.setLocationRelativeTo(null);
